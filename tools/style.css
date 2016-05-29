@@ -1,3 +1,21 @@
+/* Custom font Baveuse: https://www.onlinewebfonts.com/download/4369df033de321915dcf13be71f55ee6 */
+@import url(http://db.onlinewebfonts.com/c/4369df033de321915dcf13be71f55ee6?family=Baveuse);
+@font-face {font-family: "Baveuse";
+    src: url("http://db.onlinewebfonts.com/t/4369df033de321915dcf13be71f55ee6.eot");
+    src: url("http://db.onlinewebfonts.com/t/4369df033de321915dcf13be71f55ee6.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/4369df033de321915dcf13be71f55ee6.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/4369df033de321915dcf13be71f55ee6.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/4369df033de321915dcf13be71f55ee6.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/4369df033de321915dcf13be71f55ee6.svg#Baveuse") format("svg");
+}
+
+/* Custom */
+.grey, .header h1 span.grey {
+	color: grey;
+}
+
+
+
 /* Reset */
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
@@ -77,6 +95,7 @@ text-align: center;
 	padding: 8px 20px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
+	font-family: Baveuse;
 	
 }
 
@@ -186,4 +205,6 @@ text-align: center;
 
 
 }
+
+
 
